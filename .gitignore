@@ -1,0 +1,34 @@
+# filepath: c:\Users\balde\SongRecommendation\.gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+pip-freeze.txt
+pipenv-setup.lock
+
+# Environment variables
+.env
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (if large or sensitive - add your specific data files if needed)
+# *.csv
+# *.json
+# spotify_songs_dataset.csv # Example if you don't want to commit the dataset
+
+# OS specific
+.DS_Store
+Thumbs.db
